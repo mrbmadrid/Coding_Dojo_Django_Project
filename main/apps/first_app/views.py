@@ -1,8 +1,7 @@
 from django.shortcuts import render, HttpResponse, redirect
   # the index function is called when root is visited
 def index(request):
-	response = "This will eventually display a list of available Blogs!"
-	return HttpResponse(response)
+	return render(request, "first_app/index.html")
 
 def new(request):
 	response = "This will eventually display a new blog post"
@@ -23,4 +22,3 @@ def delete(request, number):
 	response = "This will delete blog " + number
 	return HttpResponse(response)
 
-	

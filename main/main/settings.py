@@ -32,6 +32,7 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
 	'apps.first_app', ###Our app
+    'apps.time_app',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -119,3 +120,4 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.10/howto/static-files/
 
 STATIC_URL = '/static/'
+
