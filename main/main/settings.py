@@ -34,6 +34,8 @@ INSTALLED_APPS = [
 	'apps.first_app', ###Our app
     'apps.time_app',
     'apps.random_word',
+    'apps.users_app',
+    'apps.survey_app',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',

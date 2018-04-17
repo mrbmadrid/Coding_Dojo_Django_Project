@@ -19,5 +19,7 @@ from django.contrib import admin
 urlpatterns = [
 	url(r'^',include('apps.first_app.urls')), ##connect our app	
 	url(r'^',include('apps.time_app.urls')),
-	url(r'^',include('apps.random_word.urls'))
+    url(r'^',include('apps.random_word.urls')),
+    url(r'^',include('apps.survey_app.urls')),
+	url(r'^',include('apps.users_app.urls'))
 ]
